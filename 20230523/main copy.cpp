@@ -13,8 +13,8 @@ unordered_map<int, department*> departmentMap;
 //std::unordered_map<int, department*> <志願系所編號, 系所>
 
 int main(){
-    fstream inGrade("StudentGrade.csv"); //學生成績
-    fstream inApply("StudentApplication.csv"); //學生志願表
+    fstream inGrade("StudentGradePy.csv"); //學生成績
+    fstream inApply("StudentApplicationPy.csv"); //學生志願表
     string bufGrade, bufApply, temp;
     int dotPosition = 0;
     student stutemp;
