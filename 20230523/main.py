@@ -3,8 +3,8 @@ from chart import GenerateRatio
 
 IDstartingNumber = 10000000
 NumberOfSubject = 6
-MaxApply = 10
-numofdept = 10
+MaxApply = 20
+numofdept = 75
 
-GenerateData(10, numofdept)
+GenerateData(60000, numofdept)
 GenerateRatio()
